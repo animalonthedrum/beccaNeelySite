@@ -3,6 +3,29 @@
 }
 
 .nav-item {
-  font-size: 3em;
   text-align: center;
+  padding:
+}
+
+footer {
+  /*background-color: purple!important;*/
+  text-align: center;
+}
+
+.links {
+  padding: 5px 8px;
+  margin: 1%;
+}
+
+.links:hover {
+  opacity: 0.5;
+}
+
+.cpyr {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.brett {
+  font-size: 14px;
 }

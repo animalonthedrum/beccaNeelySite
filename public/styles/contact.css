@@ -1,0 +1,28 @@
+.contact {
+  width: 50%;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+}
+
+.submit {
+  background-color: transparent;
+  border: 1px solid black;
+  margin-top: 3%;
+}
+
+.submit:hover {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+
+.send {
+  text-align: center;
+}

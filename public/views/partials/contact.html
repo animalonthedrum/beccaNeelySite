@@ -1,1 +1,33 @@
-<h1>contact page</h1>
+<!-- <a class='links' target="_blank" href="https://www.dribbble.com/beccaneely/"><i class="fa fa-dribbble fa-2x" aria-hidden="true"></i></a>
+<a class='links' target="_blank" href="https://www.linkedin.com/in/becca-neely/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+<a class='links' target="_blank" href="https://www.instagram.com/beccaneely/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a> -->
+<div class="container contact">
+
+  <div class="">
+    <div class="field">
+      <label for="name">NAME*</label>
+      <input id='sendName' type="text" name="name" value="" ng-model='pc.mailObject.name'>
+    </div>
+    <div class="field">
+      <label for="email">E-MAIL*</label>
+      <input id='sendEmail' type="email" name="email" ng-model='pc.mailObject.email'>
+    </div>
+    <div class="field">
+      <label for="subject">SUBJECT*</label>
+      <input id='sendSubject' type="text" name="subject" ng-model='pc.mailObject.subject'>
+    </div>
+    <div class="field">
+      <label for="message">MESSAGE*</label>
+      <textarea id='sendMessage' name="message" rows="5" cols="50" ng-model='pc.mailObject.message'></textarea>
+    </div>
+    <div class="send">
+
+
+      <div class="field">
+        <button ng-click="pc.submitForm(pc.mailObject)" class='submit' type="text">SEND MESSAGE</button>
+      </div>
+    </div>
+  </div>
+
+
+</div>
