@@ -1,0 +1,19 @@
+{
+  "name": "beccasite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6",
+    "body-parser": "^1.17.2",
+    "bootstrap": "^4.0.0-beta",
+    "express": "^4.15.4",
+    "node-mailer": "^0.1.1"
+  }
+}
