@@ -28,11 +28,13 @@ myApp.controller('profileController', ['MailService', function(MailService) {
     console.log(mailObject);
     if (mailObject.name !== undefined && mailObject.email !== undefined && mailObject.subject !== undefined && mailObject.message !== undefined) {
       MailService.sendEmail(mailObject).then(function() {
-        vex.defaultOptions.className = 'vex-theme-os';
-        vex.dialog.alert({
-          message: 'THANK YOU FOR CONTACTING ME',
-          className: 'vex-theme-flat-attack' // Overwrites defaultOptions
-        });
+        // vex.defaultOptions.className = 'vex-theme-os';
+        // vex.dialog.alert({
+        //   message: 'THANK YOU FOR CONTACTING ME',
+        //   className: 'vex-theme-flat-attack' // Overwrites defaultOptions
+        //
+        // });
+        alert('Thank You Message!');
         mailObject.name = undefined;
         mailObject.email = undefined;
         mailObject.subject = undefined;
@@ -45,12 +47,13 @@ myApp.controller('profileController', ['MailService', function(MailService) {
 
     } else {
       // alert('fill em out');
-
-      vex.defaultOptions.className = 'vex-theme-os';
-      vex.dialog.alert({
-        message: 'PLEASE FILL OUT ENTIRE FORM',
-        className: 'vex-theme-flat-attack' // Overwrites defaultOptions
-      });
+      //
+      // vex.defaultOptions.className = 'vex-theme-os';
+      // vex.dialog.alert({
+      //   message: 'PLEASE FILL OUT ENTIRE FORM',
+      //   className: 'vex-theme-flat-attack' // Overwrites defaultOptions
+      // });
+      alert('fill out all fields message');
     }
   };
 
