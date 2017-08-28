@@ -29,7 +29,7 @@
 }
 
 .cont:hover .image {
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .cont:hover .middle {
@@ -37,8 +37,12 @@
 }
 
 .text {
-  background-color: white;
-  color: black;
-  font-size: 16px;
-  padding: 16px 32px;
+  font-family: 'europa', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  background-color: transparent;
+  color: #333333;
+  font-size: 32px;
+  /*padding: 16px 32px;*/
+  text-align: center;
 }

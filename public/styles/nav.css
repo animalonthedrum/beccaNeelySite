@@ -23,9 +23,11 @@ footer {
 
 .cpyr {
   padding-top: 20px;
+  color: rgb(171, 170, 172);
   /*text-align: center;*/
 }
 
 .brett {
   font-size: 14px;
+  color: rgb(171, 170, 172);
 }
