@@ -10,6 +10,18 @@ myApp.config(function($routeProvider) {
     templateUrl: 'views/partials/contact.html',
   }).when('/work', {
     templateUrl: 'views/partials/work.html',
+  }).when('/work/yogacenter-catalog', {
+    templateUrl: 'views/partials/content/yogacatalog.html',
+  }).when('/work/surescripts-brandguide', {
+    templateUrl: 'views/partials/content/surescripts.html',
+  }).when('/work/solsounds', {
+    templateUrl: 'views/partials/content/solsounds.html',
+  }).when('/work/bauhausmanifesto', {
+    templateUrl: 'views/partials/content/bauhaus.html',
+  }).when('/work/yogagurus', {
+    templateUrl: 'views/partials/content/yogagurus.html',
+  }).when('/work/foundforage', {
+    templateUrl: 'views/partials/content/foundforage.html',
   });
 });
 

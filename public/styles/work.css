@@ -36,6 +36,14 @@
   opacity: 1;
 }
 
+.cont:active .image {
+  opacity: 0.2;
+}
+
+.cont:active .middle {
+  opacity: 1;
+}
+
 .text {
   font-family: 'europa', sans-serif;
   font-style: normal;

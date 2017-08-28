@@ -38,6 +38,19 @@
                 padding-top: 50px;
               }
 
+              .about4 {
+                padding-top: 50px;
+                padding-left: 30px;
+              }
+
+              .about5 {
+                padding-left: 30px;
+              }
+
+              p.about5 {
+                color: rgb(171, 170, 172);
+              }
+
               .skills {
                 font-size: 22px;
                 font-weight: 400;
