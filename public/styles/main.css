@@ -13,11 +13,11 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .nav-link {
     /*font-size: 42px;*/
-    padding: 10px;
+    padding: 30px;
   }
   .navbar-nav {
-    margin-top: 100px;
-    margin-bottom: 200px;
+    margin-top: 6em;
+    margin-bottom: 16em;
     font-size: 52px;
   }
 }
@@ -72,6 +72,12 @@ a:link {
 .fa {
   color: #4825a6;
 }
+
+
+/*.show {
+  background-color: #4825a6;
+  width: 100vw;
+}*/
 
 
 /*s {
