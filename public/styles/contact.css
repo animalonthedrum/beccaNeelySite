@@ -6,6 +6,12 @@ input {
   width: 100%;
 }
 
+label {
+  font-family: "brandon-grotesque", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
 textarea {
   width: 100%;
   resize: none;
@@ -25,9 +31,12 @@ textarea {
 }
 
 .send {
-  text-align: center;
+  text-align: left;
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
-.contanctMessage {
-  text-align: center;
+.contactMessage {
+  text-align: left;
 }

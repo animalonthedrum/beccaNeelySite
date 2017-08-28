@@ -4,7 +4,9 @@
 
 .nav-item {
   text-align: center;
-  padding:
+  font-family: "brandon-grotesque", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
 
 footer {
