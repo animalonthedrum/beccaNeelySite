@@ -23,6 +23,10 @@ footer {
   opacity: 0.5;
 }
 
+.logoGif {
+  display: inline-block;
+}
+
 .cpyr {
   padding-top: 20px;
   color: rgb(171, 170, 172);

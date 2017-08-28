@@ -18,13 +18,20 @@
               }
 
               .about1 {
-                font-weight: bold;
+                font-weight: 700;
                 letter-spacing: 1.5px;
+                padding-top: 50px;
+                padding-left: 30px;
+                text-align: left;
+                font-size: 26px;
               }
 
               .about2 {
                 font-weight: 300;
                 letter-spacing: 1.5px;
+                padding: 0 30px;
+                text-align: left;
+                font-size: 26px;
               }
 
               .about3 {
