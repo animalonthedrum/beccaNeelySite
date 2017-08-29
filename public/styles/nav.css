@@ -11,6 +11,10 @@
   font-weight: 700;
 }
 
+.navbar ul li:first-child {
+  float: left!important;
+}
+
 .gifLogo {
   display: inline;
 }
@@ -37,4 +41,42 @@ footer {
 
 .brett {
   color: rgb(171, 170, 172);
+}
+
+.nav-item {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.nav-item:before, .nav-item:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #bcee66;
+}
+
+.nav-item:before {
+  left: -2.5px;
+}
+
+.nav-item:after {
+  right: 2.5px;
+  background: #bcee66;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.nav-item:hover:before {
+  background: #bcee66;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.nav-item:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
 }
