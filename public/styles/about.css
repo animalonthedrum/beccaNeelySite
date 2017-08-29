@@ -19,28 +19,32 @@
 
               .about1 {
                 font-weight: 700;
-                letter-spacing: 1.5px;
                 padding-top: 50px;
                 padding-left: 30px;
                 text-align: left;
-                font-size: 26px;
+                /*font-size: 36px;
+                line-height: 40px;*/
               }
 
               .about2 {
                 font-weight: 300;
-                letter-spacing: 1.5px;
                 padding: 0 30px;
                 text-align: left;
-                font-size: 26px;
+                /*font-size: 22px;
+                line-height: 29px;*/
               }
 
               .about3 {
                 padding-top: 50px;
+                /*font-size: 26px;*/
+                font-weight: 700;
               }
 
               .about4 {
                 padding-top: 50px;
                 padding-left: 30px;
+                /*font-size: 26px;*/
+                font-weight: 700;
               }
 
               .about5 {
@@ -49,9 +53,4 @@
 
               p.about5 {
                 color: rgb(171, 170, 172);
-              }
-
-              .skills {
-                font-size: 22px;
-                font-weight: 400;
               }

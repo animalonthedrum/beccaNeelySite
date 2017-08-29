@@ -4,6 +4,19 @@ body {
   font-weight: 500;
 }
 
+p {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 26px
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
 @media (max-width: 575px) {
   .nav-link {
     font-size: 22px;
@@ -15,7 +28,16 @@ body {
     font-size: 38px;
   }
   p {
-    font-size: 22px;
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 45.5px;
+  }
+  h2 {
+    font-size: 49px;
+  }
+  h1 {
+    font-size: 60px;
   }
 }
 
@@ -30,7 +52,35 @@ body {
     font-size: 38px;
   }
   p {
-    font-size: 22px;
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 45.5px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  label {
+    font-size: 32px;
+  }
+  input {
+    font-size: 36px;
+  }
+  .info {
+    font-size: 42px;
+    padding: 0px 150px;
+    text-align: center;
+  }
+  .submit {
+    font-size: 32px;
+  }
+  .skills {
+    font-size: 32px;
+    font-weight: 400;
+    padding-left: 20px;
   }
 }
 
@@ -45,7 +95,35 @@ body {
     font-size: 52px;
   }
   p {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 45.5px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  .info {
+    font-size: 42px;
+    padding: 0px 150px;
+    text-align: center;
+  }
+  label {
+    font-size: 32px;
+  }
+  input {
     font-size: 36px;
+  }
+  .submit {
+    font-size: 32px;
+  }
+  .skills {
+    font-size: 32px;
+    font-weight: 400;
+    /*padding-left: 20px;*/
   }
 }
 
@@ -61,6 +139,10 @@ body {
   .nav-link {
     font-size: 22px;
   }
+}
+
+button {
+  border: none!important;
 }
 
 a {
@@ -102,10 +184,10 @@ a:link {
 .navbar-toggler span {
   display: block;
   background-color: #444;
-  height: 3px;
-  width: 25px;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  height: 7px;
+  width: 48px;
+  margin-top: 8px;
+  margin-bottom: 8px;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -149,10 +231,6 @@ a:link {
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
   opacity: 0.9;
-}
-
-h2 {
-  font-weight: 700;
 }
 
 
