@@ -47,10 +47,10 @@ myApp.controller('profileController', ['MailService', function(MailService) {
         //
         // });
         alert('Thank You Message!');
-        mailObject.name = undefined;
-        mailObject.email = undefined;
-        mailObject.subject = undefined;
-        mailObject.message = undefined;
+        // mailObject.name = undefined;
+        // mailObject.email = undefined;
+        // mailObject.subject = undefined;
+        // mailObject.message = undefined;
         console.log(mailObject);
 
 
