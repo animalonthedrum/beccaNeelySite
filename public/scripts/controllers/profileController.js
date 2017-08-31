@@ -10,20 +10,23 @@ myApp.config(function($routeProvider, $locationProvider) {
     templateUrl: 'views/partials/contact.html',
   }).when('/work', {
     templateUrl: 'views/partials/work.html',
-  }).when('/work/yogacenter-catalog', {
+  }).when('/yogacenter-catalog', {
     templateUrl: 'views/partials/content/yogacatalog.html',
-  }).when('/work/surescripts-brandguide', {
+  }).when('/surescripts-brandguide', {
     templateUrl: 'views/partials/content/surescripts.html',
-  }).when('/work/solsounds', {
+  }).when('/solsounds', {
     templateUrl: 'views/partials/content/solsounds.html',
-  }).when('/work/bauhausmanifesto', {
+  }).when('/bauhausmanifesto', {
     templateUrl: 'views/partials/content/bauhaus.html',
-  }).when('/work/yogagurus', {
+  }).when('/yogagurus', {
     templateUrl: 'views/partials/content/yogagurus.html',
-  }).when('/work/foundforage', {
+  }).when('/foundforage', {
     templateUrl: 'views/partials/content/foundforage.html',
   });
-  $locationProvider.html5Mode(true);
+  $locationProvider.html5Mode({
+    enabled: true,
+    requireBase: false
+  });
 });
 
 

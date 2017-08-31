@@ -19,3 +19,8 @@ var port = process.env.PORT || 7888;
 app.listen(port, function() {
   console.log('server up on:', port);
 }); // end spin up
+app.use(function(req, res) {
+  res.sendFile('index.html', {
+    root: 'public/views/'
+  });
+});
