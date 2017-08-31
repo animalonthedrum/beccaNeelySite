@@ -1,6 +1,6 @@
 var myApp = angular.module('myApp', ['ngRoute']);
 
-myApp.config(function($routeProvider) {
+myApp.config(function($routeProvider, $locationProvider) {
   $routeProvider.when('/', {
     templateUrl: 'views/partials/work.html',
     controller: 'profileController as pc'
@@ -23,6 +23,7 @@ myApp.config(function($routeProvider) {
   }).when('/work/foundforage', {
     templateUrl: 'views/partials/content/foundforage.html',
   });
+  $locationProvider.html5Mode(true);
 });
 
 
