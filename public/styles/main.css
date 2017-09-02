@@ -89,6 +89,9 @@ h2 {
     /*font-size: 42px;*/
     padding: 30px;
   }
+  /*.nav-item {
+    width: 50%;
+  }*/
   .navbar-nav {
     margin-top: 6em;
     margin-bottom: 16em;
