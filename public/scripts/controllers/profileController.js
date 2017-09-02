@@ -22,6 +22,8 @@ myApp.config(function($routeProvider, $locationProvider) {
     templateUrl: 'views/partials/content/yogagurus.html',
   }).when('/foundforage', {
     templateUrl: 'views/partials/content/foundforage.html',
+  }).when('/surescripts-brandnarrative', {
+    templateUrl: 'views/partials/content/surescripts-brandnarrative.html',
   });
   $locationProvider.html5Mode({
     enabled: true,
