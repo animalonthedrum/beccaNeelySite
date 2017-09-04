@@ -1,65 +1,53 @@
-              /*.myPic {
-                width: 100%;
-                margin-left: 60px;
-              }
+.me {
+  width: 100%;
+}
 
-              @media (min-width: 768px) and (max-width: 991px) {
-                .me {
-                  width: 100%;
-                }
-                .myPic {
-                  margin-left: 0;
-                  width: 100%;
-                }
-              }*/
-
-              .me {
-                width: 100%;
-              }
-
-              .about1 {
-                font-weight: 700;
-                padding-top: 50px;
-                padding-left: 30px;
-                text-align: left;
-                /*font-size: 36px;
+.about1 {
+  font-weight: 700;
+  padding-top: 50px;
+  padding-left: 30px;
+  text-align: left;
+  /*font-size: 36px;
                 line-height: 40px;*/
-              }
+}
 
-              .about2 {
-                font-weight: 300;
-                padding: 0 30px;
-                text-align: left;
-                /*font-size: 22px;
+.about2 {
+  font-weight: 300;
+  padding: 0 30px;
+  text-align: left;
+  /*font-size: 22px;
                 line-height: 29px;*/
-              }
+}
 
-              .about3 {
-                padding-top: 50px;
-                /*font-size: 26px;*/
-                font-weight: 700;
-              }
+.about3 {
+  padding-top: 50px;
+  /*font-size: 26px;*/
+  font-weight: 700;
+}
 
-              .about4 {
-                padding-top: 50px;
-                padding-left: 30px;
-                /*font-size: 26px;*/
-                font-weight: 700;
-              }
+.about4 {
+  padding-top: 50px;
+  padding-left: 30px;
+  /*font-size: 26px;*/
+  font-weight: 700;
+}
 
-              .about5 {
-                padding-left: 30px;
-              }
+.about5 {
+  padding-left: 30px;
+}
 
-              p.about5 {
-                color: rgb(171, 170, 172);
-              }
-              /*.strikethrough {
+p.about5 {
+  color: rgb(171, 170, 172);
+}
+
+
+/*.strikethrough {
                 display: inline-block;
                 position: relative;
                 transition: all 0.5s cubic-bezier(.55, 0, .1, 1);
                 line-height: normal;
                 stroke-linecap: round!important;
+                      z-index: -1!important;
               }
 
               .strikethrough:after {
@@ -76,18 +64,28 @@
                 animation: strikethrough 1s 1s cubic-bezier(.55, 0, .1, 1) 1;
                 transition: transform 1s cubic-bezier(.55, 0, .1, 1);
               }*/
-              /* Little hover effect */
-              /*.strikethrough:hover {
+
+
+/* Little hover effect */
+
+
+/*.strikethrough:hover {
 
                 color: #bcee66;
                 background: rgba(255, 189, 182, 0.3);
               }*/
-              /*.strikethrough:hover:after {
+
+
+/*.strikethrough:hover:after {
                 transform: scaleX(0);
                 transform-origin: center right;
               }*/
-              /* Keyframes for initial animation */
-              /*@keyframes strikethrough {
+
+
+/* Keyframes for initial animation */
+
+
+/*@keyframes strikethrough {
                 from {
                   transform: scaleX(0);
                 }
