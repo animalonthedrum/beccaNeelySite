@@ -40,7 +40,8 @@ p.about5 {
   color: rgb(171, 170, 172);
 }
 
-.strikethrough {
+
+/*.strikethrough {
   display: inline-block;
   position: relative;
   transition: all 0.5s cubic-bezier(.55, 0, .1, 1);
@@ -65,7 +66,8 @@ p.about5 {
 
 /* Little hover effect */
 
-.strikethrough:hover {
+
+/*.strikethrough:hover {
   color: #bcee66;
   background: rgba(255, 189, 182, 0.3);
 }
@@ -78,11 +80,12 @@ p.about5 {
 
 /* Keyframes for initial animation */
 
-@keyframes strikethrough {
+
+/*@keyframes strikethrough {
   from {
     transform: scaleX(0);
   }
   to {
     transform: scaleX(1);
   }
-}
+}*/

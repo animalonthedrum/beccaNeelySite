@@ -148,6 +148,11 @@ h2 {
   }
 }
 
+.workPages {
+  padding: 10px!important;
+  color: rgb(171, 170, 172)!important;
+}
+
 button {
   border: none!important;
 }
