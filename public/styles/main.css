@@ -149,8 +149,19 @@ h2 {
 }
 
 .workPages {
-  padding: 10px!important;
+  padding: 40px!important;
   color: rgb(171, 170, 172)!important;
+}
+
+.pages {
+  padding: 10px!important;
+  margin-top: 10px!important;
+  color: rgb(171, 170, 172)!important;
+  text-align: center!important;
+}
+
+.pages:hover {
+  text-decoration: underline!important;
 }
 
 button {
