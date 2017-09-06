@@ -45,6 +45,10 @@ h2 {
   }
 }
 
+.pages {
+  font-size: 32px;
+}
+
 @media (min-width: 576px) and (max-width: 767px) {
   .nav-link {
     font-size: 32px;
@@ -54,6 +58,9 @@ h2 {
     margin-top: 6em;
     margin-bottom: 16em;
     font-size: 38px;
+  }
+  .pages {
+    font-size: 32px;
   }
   p {
     font-size: 32px;
@@ -100,6 +107,9 @@ h2 {
     margin-top: 6em;
     margin-bottom: 16em;
     font-size: 52px;
+  }
+  .pages {
+    font-size: 32px;
   }
   p {
     font-size: 32px;
