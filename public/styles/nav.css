@@ -11,6 +11,10 @@
   font-weight: 700;
 }
 
+.navbar-toggler {
+  margin-top: 2em!important;
+}
+
 .logo {
   height: 50%!important;
   width: 50%!important;
