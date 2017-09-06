@@ -11,10 +11,16 @@
   font-weight: 700;
 }
 
+.logo {
+  height: 50%!important;
+  width: 50%!important;
+  margin: auto!important;
+}
+
 .gifLogo {
   display: inline;
-  height: 30%!important;
-  width: 30%!important;
+  height: 50%!important;
+  width: 50%!important;
 }
 
 footer {
