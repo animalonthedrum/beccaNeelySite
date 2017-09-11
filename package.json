@@ -16,8 +16,15 @@
     "bootstrap": "^4.0.0-beta",
     "dotenv": "^4.0.0",
     "express": "^4.15.4",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
     "node-mailer": "^0.1.1",
     "vex-dialog": "^1.0.7",
     "vex-js": "^4.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-uglify": "^3.1.0"
   }
 }
