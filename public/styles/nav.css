@@ -53,18 +53,18 @@ footer {
 
 
 /*a.nav-link:hover {
-  /*text-decoration: underline;
+  text-decoration: underline;
   text-decoration-color: #bcee66;
   text-underline-position: below;
-  /*transition: 0.8s;*/
-
-
+  transition: 0.8s;
 }
+
 a.nav-link {
   position: relative;
   display: block;
   cursor: pointer;
 }
+
 a.nav-link:before, .nav-item:after {
   content: '';
   position: absolute;
@@ -74,22 +74,25 @@ a.nav-link:before, .nav-item:after {
   margin-top: -0.5px;
   background: #bcee66;
 }
+
 a.nav-link:before {
   left: -.5px;
 }
+
 a.nav-link:after {
   right: .5px;
   background: #bcee66;
   transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
+
 a.nav-link:hover:before {
   background: #bcee66;
   width: 100%;
   transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
+
 a.nav-link:hover:after {
   background: transparent;
   width: 100%;
   transition: 0s;
-}
-*/
+}*/
