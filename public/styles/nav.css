@@ -16,15 +16,16 @@
 }
 
 .logo {
-  height: 50%!important;
-  width: 50%!important;
+  height: 55%!important;
+  width: 55%!important;
   margin: auto!important;
 }
 
 .gifLogo {
-  display: inline;
-  height: 50%!important;
-  width: 50%!important;
+  display: inline-block!important;
+  height: 55%!important;
+  width: 55%!important;
+  margin-top: .5em!important;
 }
 
 footer {
