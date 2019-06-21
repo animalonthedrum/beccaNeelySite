@@ -26,6 +26,8 @@ myApp.config(function($routeProvider, $locationProvider) {
     templateUrl: 'views/partials/content/surescripts-brandnarrative.html',
   }).when('/play', {
     templateUrl: 'views/partials/content/play.html',
+  }).when('/jensjars', {
+    templateUrl: 'views/partials/content/jensjars.html',
   });
   $locationProvider.html5Mode({
     enabled: true,

@@ -15,8 +15,8 @@ router.use(bodyParser.json());
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'becca.neely1@gmail.com', //YOUR GMAIL USER HERE -> EXAMPLE@gmail.com
-    pass: process.env.EMAIL_PASSWORD //YOUR GMAIL PASSWORD, DO NOT HOST THIS INFO ON GITHUB!
+    user: 'becca.neely1@gmail.com',
+    pass: process.env.EMAIL_PASSWORD 
   }
 });
 
@@ -27,7 +27,6 @@ router.post('/', function(req, res) {
 
 
   var mailOptions = {
-    //example: from: '"Scott" scott@primeacademy.io',
     from: '"Beccas Site" becca.neely1@gmail.com', // sender address -> //YOUR GMAIL USER HERE IN STRING + email not in string! -> EXAMPLE@gmail.com
     to: 'becca.m.neely@gmail.com',
     subject: mailer.subject, // Subject line
