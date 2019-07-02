@@ -265,7 +265,11 @@ a:link {
   transform: rotate(-135deg);
   opacity: 0.9;
 }
-
+.jj-logo {
+  height: 100%;
+  width: auto;
+  display: flex;
+}
 
 /*.show {
   background-color: #4825a6;
