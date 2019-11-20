@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.6.6",
+    "angular": "^1.7.9",
     "angular-route": "^1.6.6",
     "aos": "^2.2.0",
     "body-parser": "^1.19.0",
